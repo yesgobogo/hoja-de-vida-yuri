@@ -1,7 +1,7 @@
-.body{
-    width:100px;
-    height:100px;
-    background:cornflowerblue;
+body{
+    width: 100%;
+    height: 100%;
+    background:rgb(116, 156, 231);
     padding: 50px;
     margin: 20px;
 }
@@ -14,6 +14,61 @@
     width: 400px; /* Ancho */
     height: 300px; /* Alto */
 }
+.img_3{
+    width: 300px; /* Ancho */
+    height: 300px; /* Alto */ 
+}
+.img_4{
+    width: 50px; /* Ancho */
+    height: 50px; /* Alto */
+}
+.img_5{
+    width: 50px; /* Ancho */
+    height: 50px; /* Alto */
+}
 p {
     font-weight: bold; /*negrita a las etiquetas de parrafo*/
 }
+
+main {
+    color: black;
+    }
+     
+    ul {
+        color: black
+        ;
+    }
+       
+    nav ul {
+        list-style-type: none; /* Elimina los puntos de lista */
+        margin: 0; /* Elimina el margen predeterminado */
+        padding: 0; /* Elimina el relleno predeterminado */
+        text-align: right;
+    }
+       
+    nav ul li {
+        display: inline; /* Hace que los elementos de la lista aparezcan en línea */
+        margin-right: 30px; /* Espacio entre los elementos de la lista */
+    }
+       
+    nav ul li:last-child {
+        margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+    }
+       
+    nav ul li a {
+        text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+        color: whitesmoke; /* Color del texto de los enlaces */
+        padding: 10px; /* Espacio alrededor del texto de los enlaces */
+    }
+       
+    nav ul li a:hover {
+        background-color: #504c4c; /* Cambia el color de fondo cuando se pasa el cursor sobre los enlaces */
+    }
+    nav {
+        background-color: #ff6f61;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
